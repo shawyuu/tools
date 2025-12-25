@@ -18,7 +18,7 @@ just-htmls/
 │   ├── ISSUE_TEMPLATE/       # Issue 模板
 │   └── workflows/            # GitHub Actions 工作流
 │       └── update-sitemap.yml
-├── CONTRIBUTING.html          # 贡献指南
+├── CONTRIBUTING.md             # 贡献指南
 ├── index.html                 # 主页面
 ├── index.json                 # 工具索引文件
 ├── reference.html             # 参考文档

@@ -66,7 +66,7 @@ python3 scripts/update_sitemap.py
 - 修改了以下文件：
   - `index.json`
   - `tools/**/*.html`
-  - `CONTRIBUTING.html`
+  - `CONTRIBUTING.md`
   - `reference.html`
 - 手动触发工作流
 

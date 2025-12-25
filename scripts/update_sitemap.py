@@ -40,7 +40,7 @@ def generate_sitemap():
     })
     
     # 添加其他页面
-    for page in ['CONTRIBUTING.html', 'reference.html']:
+    for page in ['reference.html']:
         page_path = base_dir / page
         if page_path.exists():
             # 使用文件的修改时间
@@ -51,6 +51,17 @@ def generate_sitemap():
                 'changefreq': 'monthly',
                 'priority': '0.5'
             })
+    
+    # 添加 CONTRIBUTING.md (指向 GitHub)
+    contributing_path = base_dir / 'CONTRIBUTING.md'
+    if contributing_path.exists():
+        lastmod = datetime.fromtimestamp(contributing_path.stat().st_mtime).strftime('%Y-%m-%d')
+        urls.append({
+            'loc': 'https://github.com/justhtmls/html-tools/blob/main/CONTRIBUTING.md',
+            'lastmod': lastmod,
+            'changefreq': 'monthly',
+            'priority': '0.5'
+        })
     
     # 添加所有工具页面
     for tool in data.get('tools', []):

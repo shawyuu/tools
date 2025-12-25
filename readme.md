@@ -8,7 +8,7 @@
 
 **开源 HTML 工具集 - 轻量、隐私、无需安装**
 
-[在线体验](https://htmls.dev/) | [贡献指南](CONTRIBUTING.html) | [提交工具](https://github.com/justhtmls/html-tools/issues/new?template=tool-submission.md)
+[在线体验](https://htmls.dev/) | [贡献指南](CONTRIBUTING.md) | [提交工具](https://github.com/justhtmls/html-tools/issues/new?template=tool-submission.md)
 
 </div>
 
@@ -108,7 +108,7 @@ tools/
 - 保持精简（建议 500 行以内）
 - 数据本地处理，保护隐私
 
-详细内容请查看 [贡献指南](CONTRIBUTING.html)。
+详细内容请查看 [贡献指南](CONTRIBUTING.md)。
 
 ---
 
@@ -118,7 +118,7 @@ tools/
 html-tools/
 ├── index.html              # 主站门户首页
 ├── index.json              # 工具索引文件
-├── CONTRIBUTING.html       # 贡献指南
+├── CONTRIBUTING.md          # 贡献指南
 ├── README.md               # 项目说明
 ├── tools/                  # 工具目录
 │   └── tool-name/         # 单个工具文件夹
