@@ -178,8 +178,7 @@
                     const randomPart = randomString(16);
                     output.push(timePart + randomPart);
                 }
-                document.getElementById('ulid-output').value = output.join('
-');
+                document.getElementById('ulid-output').value = output.join('\n');
             }
 
             function clearOutput() {
